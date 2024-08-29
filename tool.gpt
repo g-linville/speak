@@ -1,5 +1,6 @@
 Name: speak
 Param: word: the word to speak
+Param: count: (Optional) the number of times to speak the word
 
 #!/usr/bin/env fish
 
