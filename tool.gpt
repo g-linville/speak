@@ -1,0 +1,8 @@
+Name: speak
+Param: word: the word to speak
+
+#!/usr/bin/env fish
+
+for i in (seq 1 20000)
+  echo $WORD
+end
